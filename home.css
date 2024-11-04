@@ -1,0 +1,184 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header{
+    height: 10%;
+    width: 100%;
+    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contentbox{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+}
+.logobox{
+    height: 100%;
+    max-height: 100%;
+    display: flex;
+    align-items: center;
+    color: white;
+    text-shadow: 1px 1px 1px;
+}
+.logobox img{
+    height: 70%;
+    max-height: 100%;
+}
+.navlist{
+    height: 100%;
+    max-height: 100%;
+}
+.navlist ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    max-height: 100%;
+    gap: 3rem;
+}
+.navlist a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+    transition: all 0.2s linear 0s;
+}
+.navlist a:hover{
+    color: #537895;
+}
+.contact{
+    height: 60%;
+    width: 8%;
+    border: 2px solid rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 30px;
+    transition: all 0.2s linear 0s;
+}
+.contact a{
+    text-decoration: none;
+    color: white;
+}
+.contact:hover{
+    color: black;
+    background-color: white;
+}
+.contact:hover a{
+    color: black;
+}
+main{
+    min-width: 100%;
+    min-height: 90%;
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mcontent{
+    width: 70%;
+    height: 90%;
+    display: flex;
+    gap: 2rem;
+}
+.left{
+    width: 50%;
+    height: 80%;
+    align-self: flex-end;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.right{
+    width: 50%;
+    height: 100%;
+    
+}
+.bigimg{
+    max-width: 90%;
+    min-height: 90%;
+    border-radius: 2rem;
+    box-shadow: 1px 1px 30px;
+}
+.one{
+    font-size: large;
+    font-weight: 500;
+    color:khaki;
+}
+.two{
+    font-size: 2.3rem;
+}
+.three{
+    width: 80%;
+    color: rgba(255, 255, 255, 0.8);
+}
+.four{
+    width: 50%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+.leftb{
+    border: khaki 2px solid;
+    height: auto;
+    width: 50%;
+    height: 70%;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: khaki;
+    transition: all 0.2s linear 0s;
+}
+.leftb:hover{
+    background-color: rgba(87, 139, 122, 0.807);
+    border: 2px solid rgba(87, 139, 122, 0.807);
+}
+.rightb{
+    border: #f5f6f7 2px solid;
+    width: 50%;
+    height: 70%;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s linear 0s;
+}
+.rightb:hover{
+    background-color: white;
+}
+.rightb:hover a{
+    color: black;
+}
+.four a{
+    text-decoration: none;
+    color: white;
+}
+.leftb a{
+    color: khaki;
+}
+.leftb:hover a{
+    color: white;
+}
+
+

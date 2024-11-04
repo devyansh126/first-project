@@ -1,0 +1,111 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+}
+header{
+    height: 4.58rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contentbox{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+}
+.logobox{
+    height: 100%;
+    max-height: 100%;
+    display: flex;
+    align-items: center;
+    color: white;
+    text-shadow: 1px 1px 1px;
+}
+.logobox img{
+    height: 70%;
+    max-height: 100%;
+}
+.navlist{
+    height: 100%;
+    max-height: 100%;
+}
+.navlist ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    max-height: 100%;
+    gap: 3rem;
+}
+.navlist a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+    transition: all 0.2s linear 0s;
+}
+.navlist a:hover{
+    color: #537895;
+}
+.contact{
+    height: 60%;
+    width: 8%;
+    border: 2px solid rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 30px;
+    transition: all 0.2s linear 0s;
+}
+.contact a{
+    text-decoration: none;
+    color: white;
+}
+.contact:hover{
+    color: black;
+    background-color: white;
+}
+.contact:hover a{
+    color: black;
+}
+.content{
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.aboutus{
+    width: 100%;
+    height: 10rem;
+}
+.heading{
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 2.7rem;
+}
+.para{
+    color: rgba(255, 255, 255, 0.658);
+    width: 100%;
+    font-size: 1.5rem;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    width: 70%;
+    gap: 2rem;
+}

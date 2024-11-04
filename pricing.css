@@ -1,0 +1,190 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    /* background-image: linear-gradient(-225deg, #FF3CAC 0%, #562B7C 52%, #2B86C5 100%); */
+    background-image: linear-gradient(-225deg, #3D4E81 0%, #5753C9 48%, #6E7FF3 100%);
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.con{
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+}
+.title{
+    font-size: 2rem;
+    color:  #fbe3d7;
+}
+.titlepara{
+    color: rgba(255, 255, 255, 0.788);
+}
+.content{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    width: 70%;
+    height: 90%;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1rem;
+}
+.box{
+    background-color: #aa76f5;
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 0px 1px 3px white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.one{
+    width: 100%;
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+}
+.two{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+}
+.listing ul{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    color: white;
+    list-style-type: none;
+}
+.three{
+    width: 60%;
+    border-radius: 30px;
+    height: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+    border: 2px solid rgb(255, 255, 255);
+    transition: all 0.2s linear 0s;
+}
+.button{
+    color: white;
+}
+.type{
+    height: 20%;
+    color: white;
+    font-size: 1.2rem;
+}
+.price{
+    color: #f2b448;
+    font-size: 3.5rem;
+}
+.time{
+    color: white;
+    font-size: large;
+}
+.button a{
+    text-decoration: none;
+    color: white;
+}
+.three:hover{
+    background-color: #fbe3d7;
+}
+.three:hover a{
+    color: black;
+}
+header{
+    height: 4.58rem;
+    width: 100%;
+    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contentbox{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+}
+.logobox{
+    height: 100%;
+    max-height: 100%;
+    display: flex;
+    align-items: center;
+    color: white;
+    text-shadow: 1px 1px 1px;
+}
+.logobox img{
+    height: 70%;
+    max-height: 100%;
+}
+.navlist{
+    height: 100%;
+    max-height: 100%;
+}
+.navlist ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    max-height: 100%;
+    gap: 3rem;
+}
+.navlist a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+    transition: all 0.2s linear 0s;
+}
+.navlist a:hover{
+    color: #537895;
+}
+.contact{
+    height: 60%;
+    width: 8%;
+    border: 2px solid rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 30px;
+    transition: all 0.2s linear 0s;
+}
+.contact a{
+    text-decoration: none;
+    color: white;
+}
+.contact:hover{
+    color: black;
+    background-color: white;
+}
+.contact:hover a{
+    color: black;
+}
